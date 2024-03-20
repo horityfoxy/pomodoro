@@ -48,12 +48,15 @@ border-radius: 20%;</string>
          <height>50</height>
         </size>
        </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
        <property name="text">
         <string/>
        </property>
        <property name="icon">
-        <iconset>
-         <normaloff>assets/icons/tomato.png</normaloff>assets/icons/tomato.png</iconset>
+        <iconset resource="assets/resource.qrc">
+         <normaloff>:/icons/tomato.png</normaloff>:/icons/tomato.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -75,8 +78,8 @@ border-radius: 20%;</string>
         <string/>
        </property>
        <property name="icon">
-        <iconset>
-         <normaloff>assets/icons/doubleTomato.png</normaloff>assets/icons/doubleTomato.png</iconset>
+        <iconset resource="assets/resource.qrc">
+         <normaloff>:/icons/doubleTomato.png</normaloff>:/icons/doubleTomato.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -104,8 +107,8 @@ border-radius: 20%;</string>
         <string/>
        </property>
        <property name="icon">
-        <iconset>
-         <normaloff>assets/icons/coffee.png</normaloff>assets/icons/coffee.png</iconset>
+        <iconset resource="assets/resource.qrc">
+         <normaloff>:/icons/coffee.png</normaloff>:/icons/coffee.png</iconset>
        </property>
        <property name="iconSize">
         <size>
@@ -119,6 +122,8 @@ border-radius: 20%;</string>
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="assets/resource.qrc"/>
+ </resources>
  <connections/>
 </ui>
